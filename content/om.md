@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,18 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Detta är en Robin Granqvist's redovisningssida för kursen Design vid Blekinge Tekniska Universitet.
 
-Skriv några kloka ord om kursen?
+Denna sida kommer att innehålla mina redovisningstexter, samt designen kommer att jobbas på genom kursens gång.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/bg.jpg]
+
+Eftersom denna kurs heter "Design" så tänkte jag att jag lägger in en bild av den snygga designen av min favoritartist Madeon's nya skivomslag!

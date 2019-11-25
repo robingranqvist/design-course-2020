@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Bootstrap the framework and handle the request and send the response.
@@ -16,6 +17,10 @@ require ANAX_INSTALL_PATH . "/vendor/autoload.php";
 $di = new Anax\DI\DIFactoryConfig();
 $di->loadServices(ANAX_INSTALL_PATH . "/config/di");
 
+?>
+
+<?php
+
 // Send the response that the router returns from the route handler
 $di->get("response")->send(
     $di->get("router")->handle(
@@ -23,3 +28,5 @@ $di->get("response")->send(
         $di->get("request")->getMethod()
     )
 );
+
+?>

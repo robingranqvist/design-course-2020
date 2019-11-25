@@ -1,1 +1,3 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+<div class="footer-copyright">
+Copyright Robin Granqvist 2019.
+</div>

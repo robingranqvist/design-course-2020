@@ -1,0 +1,108 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+.outer-wrap-main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.inner-wrap {
+  width: 100%;
+}
+
+.inner-wrap-header {
+    width: 100%;
+}
+
+.inner-wrap-main {
+  .clearfix();
+  padding-top: 50px;
+}
+
+.inner-wrap-flash {
+    width: 100%;
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+    float: left;
+}
+
+.region-main {
+    width: 100%;
+    float: left;
+
+    &.has-sidebar-left.has-sidebar-right {
+      width: 60%;
+    }
+
+    &.has-sidebar-right {
+      width: 70%;
+    }
+
+    &.has-sidebar-left {
+      width: 70%;
+    }
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+
+.outer-wrap-breadcrumb {
+  width: 960px;
+  margin: 0 auto;
+}
+
+// .region-main {
+//     width: 70%;
+//     float: left;
+// }
+
+/* de ovanför kan tas bort */
+
+/* Hide submenu, leave this to kmom02 */
+//.rm-desktop ul {
+//    display: none;
+//}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+//.rm-navbar-max {
+//   display: none;
+//}
+
+
+.region-flash {
+    min-width: 100%;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.outer-wrap-header {
+  .clearfix();
+  max-width: 100%;
+  padding: 20px;
+}

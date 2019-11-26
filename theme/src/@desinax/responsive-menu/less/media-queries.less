@@ -1,0 +1,57 @@
+/**
+ * Style for responsive menu
+ */
+
+
+ /**
+  * Example on media queries
+  */
+ @media screen and (max-width: 680px) {
+     .rm-small {
+         display: block;
+     }
+
+     .rm-desktop {
+         display: none;
+     }
+ }
+
+ @media screen and (min-width: 680px) {
+     .rm-small {
+         display: none;
+     }
+
+ }
+
+ @media screen and (max-width: 900px)  {
+      .outer-wrap-main {
+          margin: 0;
+      }
+
+      .fieldset {
+        max-width: 100%;
+      }
+
+      .region-sidebar-left,
+      .region-sidebar-right {
+        display: none;
+      }
+
+      .wrap-all  {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .region-footer {
+        margin: 0;
+        width: 100%;
+      }
+
+      .region-main.has-sidebar-left {
+        width: 100%;
+      }
+
+      .region-main.has-sidebar-left.has-sidebar-right {
+        width: 100%;
+      }
+}

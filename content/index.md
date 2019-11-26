@@ -14,8 +14,6 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.png?w=200" class="right" caption="En kossa."]
-
 Hej, jag heter Robin, är 25 år gammal och kommer från Ekenäs som ligger i södra finland.
 Just nu studerar jag webbprogrammering på Blekinge Tekniska Högskola, samt frilansar
 som elektronisk musikproducent.

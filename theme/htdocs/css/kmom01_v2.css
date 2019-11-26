@@ -1,0 +1,230 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 Arial;
+}
+a {
+  color: #333;
+}
+a:hover {
+  opacity: 0.8;
+}
+h1 {
+  margin-bottom: 50px;
+  margin-top: 20;
+  font-size: 50px;
+}
+article {
+  min-height: 300px;
+}
+h4 {
+  font-size: 25px;
+}
+ul li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+p {
+  opacity: 0.8;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.wrap-all {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 960px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 960px) {
+  .rm-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .outer-wrap-main,
+  .region-main {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
+/**Specific things that I've made for the website
+*/
+/**Specific things that I've made for the website
+*/
+.byline {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+figure.byline-img {
+  margin: 0;
+  padding: 0;
+}
+.byline p {
+  margin-left: 20px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.region-flash img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.region-header-col-1 a {
+  text-decoration: none;
+}
+figure.figure.right {
+  float: right;
+  display: inline-block;
+  margin: 0;
+  margin-left: 50px;
+}
+figure.figure.right img {
+  margin-bottom: 20px;
+}
+figure.figure img {
+  max-width: 500px;
+}
+ul.my-navbar.rm-default.rm-desktop {
+  padding: 0;
+}
+ul.my-navbar.rm-default.rm-desktop li a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-logo {
+  display: none;
+}
+.footer-column {
+  width: 33%;
+  float: left;
+}
+.region-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-copyright {
+  margin-top: 150px;
+}
+.toc ul li {
+  list-style-type: none;
+}
+.toc ul {
+  padding: 0;
+  margin: 0;
+}

@@ -1,3 +1,3 @@
 #### Footer 2
 
-Detta är den andra kolumnen.
+[Klicka här](http://lesscss.org/) för att läsa mera om LESS och hur det fungerar.

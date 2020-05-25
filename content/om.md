@@ -19,7 +19,7 @@ views:
 Om
 =========================
 
-Detta är en Robin Granqvist's redovisningssida för kursen Design vid Blekinge Tekniska Universitet.
+Detta är en Robin Granqvist's redovisningssida för kursen Design vid Blekinge Tekniska Högskola.
 
 Denna sida kommer att innehålla mina redovisningstexter, samt designen kommer att jobbas på genom kursens gång.
 

@@ -1,3 +1,3 @@
-#### Footer 3
+#### Footer 1
 
-Detta är den första kolumnen.
+[Klicka här](https://dbwebb.se/kurser/design-v2) för att läsa mer om kursens innehåll på dbwebb.se.

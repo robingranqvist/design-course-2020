@@ -331,6 +331,18 @@ template {
 /**
  * Style
  */
+.stylechooser {
+  max-width: 100%;
+}
+.region-main fieldset {
+  min-width: 0;
+}
+.region-main fieldset select {
+  max-width: 100%;
+}
+.legend {
+  float: left;
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -489,14 +501,6 @@ img {
 @media screen and (min-width: 960px) {
   .rm-small {
     display: none;
-  }
-}
-@media screen and (max-width: 960px) {
-  .outer-wrap-main,
-  .region-main {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
   }
 }
 /**
@@ -5269,10 +5273,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   .region-sidebar-left,
   .region-sidebar-right {
     display: none;
-  }
-  .wrap-all {
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .region-footer {
     margin: 0;

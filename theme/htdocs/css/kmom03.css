@@ -5743,6 +5743,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   .block {
     margin-bottom: 48px;
   }
+  .rm-desktop {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .region-header-col-1,
@@ -5762,9 +5765,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   }
   .rm-small {
     display: block;
-  }
-  .rm-desktop {
-    display: none;
   }
   .footer-column {
     display: inline;

@@ -18,6 +18,9 @@
 @fontSizeH5: 1.25em;
 @fontSizeH6: 1.25em;
 
+@colorHeaders: #333;
+@colorParagraphs: #333;
+
 // header h1-h6 borders
 @colorH1BorderBottom: #666;
 @colorH2BorderBottom: #ccc;
@@ -65,7 +68,7 @@
 
 @bgColorHr: #fff;
 
-
+@letterSpacingHeadings: normal;
 
 #desinax-hgrid {
 
@@ -107,7 +110,8 @@
             font-family: @fontFamilyHeadings;
             margin-top: @magicNumber;
             margin-bottom: @magicNumber;
-
+            color: @colorHeaders;
+            letter-spacing: @letterSpacingHeadings;
             img {
                 margin: 0;
             }
@@ -199,6 +203,7 @@
     .typographyTextElements() {
         p {
             margin-bottom: @magicNumber;
+            color: @colorParagraphs;
         }
 
         small,

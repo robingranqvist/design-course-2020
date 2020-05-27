@@ -52,6 +52,8 @@
 @maxButtonSubmenuBgColor:    #444;
 @maxButtonSubmenuHoverBgColor: #ccc;
 
+@textDecorationMenu: underline;
+
 /**
  * Outer wrapper for menu
  */
@@ -212,7 +214,7 @@ a.rm-button {
         // Style hovering over a menu item
         a:hover,
         &.current-menu-item a {
-            text-decoration: underline;
+            text-decoration: @textDecorationMenu;
         }
 
 
@@ -233,7 +235,7 @@ a.rm-button {
         // Hover over a menu item and display submenu
         &:hover {
             //color: @navbarItemHoverColor;
-            //background-color: @navbarItemHoverBgColor;
+            background-color: @navbarItemHoverBgColor;
 
             // To display submenu(s)
             > ul {

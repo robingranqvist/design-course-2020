@@ -5093,6 +5093,8 @@ h6 {
   font-family: Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
+  color: #333;
+  letter-spacing: normal;
 }
 h1 img,
 h2 img,
@@ -5167,6 +5169,7 @@ h6 {
 }
 p {
   margin-bottom: 24px;
+  color: #333;
 }
 small,
 .small,
@@ -5515,6 +5518,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-desktop li a:hover {
   color: inherit;
+  background-color: inherit;
+}
+.rm-desktop li:hover {
   background-color: inherit;
 }
 .rm-desktop li:hover > ul {

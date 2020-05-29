@@ -1,0 +1,96 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+// Biggest breakpoint
+@media screen and (max-width: 960px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+
+        .has-sidebar-left.has-sidebar-right.has-sidebar {
+            #desinax-vgrid.column(@columns);
+        }
+
+        &.has-sidebar-left {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns); 
+    }
+
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns); 
+        #desinax-vgrid.push(0);
+    }
+
+    .inner-wrap-flash .row {
+        max-width: 100%;
+    }
+
+    .region-flash {
+        margin: 0;
+        width: 100%;
+    }
+
+    .block {
+        margin-bottom: @magicNumber * 2;
+    }
+
+    .rm-desktop {
+        display: none;
+    }
+}
+
+// Middle breakpoint
+@media screen and (max-width: 700px) {
+    // Sets the header to two columns
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns / 2);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(0);
+    }
+
+    .rm-small {
+        display: block;
+    }
+ 
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .byline .figure {
+        #desinax-vgrid.column(@columns - 19);
+    }
+
+    .byline p {
+        #desinax-vgrid.column(@columns - 5);
+    }
+}
+
+// Smallest breakpoint
+@media screen and (max-width: 500px) {
+    .byline .figure {
+        #desinax-vgrid.column(@columns);
+        float: none;
+    }
+
+    .byline p {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .block {
+        margin-bottom: @magicNumber;
+    }
+}

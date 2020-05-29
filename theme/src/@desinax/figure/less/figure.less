@@ -54,8 +54,20 @@
 
         &.left,
         &.right {
+            @media (max-width: @maxContentWidth - 1) {
+                &.w25 {
+                    //width: 25%;
+                }
+                &.w50 {
+                    width: 50%;
+                }
+            }
+
             @media screen {
                 @media (max-width: round(@maxContentWidth * 7 / 8)) {
+                    &.w25 {
+                        width: 33%;
+                    }
                     &.w67 {
                         margin-left: 0;
                         margin-right: 0;
@@ -71,6 +83,7 @@
                         margin-left: 0;
                         margin-right: 0;
                         float: none;
+                        width: 100%;
                         img {
                             width: @maxContentWidth * 2 / 3;
                         }
@@ -95,6 +108,15 @@
                         float: none;
                         img {
                             width: @maxContentWidth / 2;
+                        }
+                    }
+                }
+
+                @media (max-width: round(@maxContentWidth * 3 / 8)) {
+                    &.w25 {
+                        width: 100%;
+                        img {
+                            width: 100%;
                         }
                     }
                 }

@@ -5096,8 +5096,6 @@ h6 {
   font-family: Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
-  color: #333;
-  letter-spacing: normal;
 }
 h1 img,
 h2 img,
@@ -5130,7 +5128,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 24px;
-  border-bottom: 0px solid #ccc;
+  border-bottom: 0px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -5140,7 +5138,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 24px;
-  border-bottom: 0px solid #eee;
+  border-bottom: 0px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -5150,7 +5148,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 24px;
-  border-bottom: 0px solid #eee;
+  border-bottom: 0px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5159,7 +5157,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 24px;
-  border-bottom: 0px solid #eee;
+  border-bottom: 0px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -5168,11 +5166,10 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 24px;
-  border-bottom: 0px solid #eee;
+  border-bottom: 0px solid #EEE;
 }
 p {
   margin-bottom: 24px;
-  color: #333;
 }
 small,
 .small,
@@ -5414,6 +5411,9 @@ ul li {
   list-style-type: none;
   background: none;
 }
+.inner-wrap-footer {
+  color: #fff;
+}
 /**
  * A responsive menu.
  */
@@ -5522,9 +5522,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-desktop li a:hover {
   color: inherit;
-  background-color: inherit;
-}
-.rm-desktop li:hover {
   background-color: inherit;
 }
 .rm-desktop li:hover > ul {
@@ -5662,28 +5659,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 @media screen and (min-width: 680px) {
   .rm-small {
     display: none;
-  }
-}
-@media screen and (max-width: 900px) {
-  .outer-wrap-main {
-    margin: 0;
-  }
-  .fieldset {
-    max-width: 100%;
-  }
-  .region-sidebar-left,
-  .region-sidebar-right {
-    display: none;
-  }
-  .region-footer {
-    margin: 0;
-    width: 100%;
-  }
-  .region-main.has-sidebar-left {
-    width: 100%;
-  }
-  .region-main.has-sidebar-left.has-sidebar-right {
-    width: 100%;
   }
 }
 /**

@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/desinax/theme#readme",
   "dependencies": {
-    "@desinax/figure": "^1.0.7",
+    "@desinax/figure": "^1.2.1",
     "@desinax/general": "^1.0.3",
     "@desinax/link": "^1.0.1",
     "@desinax/mixin": "^1.0.2",

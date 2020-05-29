@@ -5126,9 +5126,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   color: inherit;
   background-color: inherit;
 }
-.rm-desktop li:hover {
-  background-color: inherit;
-}
 .rm-desktop li:hover > ul {
   left: 0;
 }
@@ -5264,27 +5261,5 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 @media screen and (min-width: 680px) {
   .rm-small {
     display: none;
-  }
-}
-@media screen and (max-width: 900px) {
-  .outer-wrap-main {
-    margin: 0;
-  }
-  .fieldset {
-    max-width: 100%;
-  }
-  .region-sidebar-left,
-  .region-sidebar-right {
-    display: none;
-  }
-  .region-footer {
-    margin: 0;
-    width: 100%;
-  }
-  .region-main.has-sidebar-left {
-    width: 100%;
-  }
-  .region-main.has-sidebar-left.has-sidebar-right {
-    width: 100%;
   }
 }

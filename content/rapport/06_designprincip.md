@@ -12,7 +12,7 @@ För att göra en bra jämförelse har specifikt landningssidorna för dessa pro
 
 ## Metod
 
-Jag har främst utgått från designprinciperna som snyggt visualiseras på [Canva.com](https://www.canva.com/learn/design-elements-principles/), men också blablabla.
+Jag har främst utgått från designprinciperna som snyggt visualiseras på [Canva.com](https://www.canva.com/learn/design-elements-principles/).
 
 ## Resultat
 

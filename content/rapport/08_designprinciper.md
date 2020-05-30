@@ -22,6 +22,6 @@ Simpla sidor blir lättlästa och lätta för ögonen att titta på. Jag har get
 
 ## Källor
 
-Som källa har jag använt mig av [canva's text om designelement samt principer.](https://www.canva.com/learn/design-elements-principles/) samt [wpastra's text om designprinciper](https://wpastra.com/good-website-design/)
+Som källa har jag använt mig av [Wikipedia](https://en.wikipedia.org/wiki/Visual_design_elements_and_principles) samt [wpastra's text om designprinciper](https://wpastra.com/good-website-design/)
 
 

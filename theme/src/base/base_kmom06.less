@@ -1,0 +1,89 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: #333;
+
+// Font families for the kmom04-theme
+@fontFamilyHeadings: @fontFamilyArial;
+@fontFamilyBody:     @fontFamilyArial;
+
+// Border sizes
+@borderSizeH1: 0px;
+@borderSizeH2: 0px;
+@borderSizeH3: 0px;
+@borderSizeH4: 0px;
+@borderSizeH5: 0px;
+@borderSizeH6: 0px;
+
+@headingFontWeigth: bold;
+
+@linkColor: #34495e;
+@linkHoverOpacity: 0.6;
+@linkFontWeight: bold;
+@linkTextDecoration: none;
+
+@menuBgColor: #000;
+@menuLinkColor: #fff;
+@menuButtonColor: #fff;
+
+// Img
+@grayscalePercentage: 0;
+@saturatePercentage: 0;
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+html {
+  overflow-y: scroll;
+  background-color: @bgColorHtml;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: @colorBody;
+  background-color: @bgColorBody;
+  #desinax-hgrid.font(@fontSizeBody);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: @headingFontWeigth;
+}
+
+img {
+  max-width: 100%;
+  filter: grayscale(@grayscalePercentage);
+  // filter: saturate(@saturatePercentage);
+}
+
+a {
+  color: @linkColor;
+  text-decoration: @linkTextDecoration;
+  transition: all 100ms ease-in-out;
+  font-weight: @linkFontWeight;
+}
+
+a:hover {
+  opacity: @linkHoverOpacity;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  background: none;
+}
+
+.inner-wrap-footer {
+  color: #fff;
+}

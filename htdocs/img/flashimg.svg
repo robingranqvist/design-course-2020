@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350">
+  <g id="flashimg" transform="translate(-480 -335)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="960" height="350" transform="translate(480 335)" fill="#f67280"/>
+    <path id="Intersection_4" data-name="Intersection 4" d="M1152,349H268V162.255q9.987,3.074,20,5.823c96,25.811,192,25.811,288,6.422s192-58.167,288-51.745c96,6.908,192,57.8,288,45.322,25.641-3.463,51.274-11.531,76-22.24V349Z" transform="translate(212 304)" fill="#d9626e"/>
+    <path id="Intersection_8" data-name="Intersection 8" d="M898.734,261H0V74.255q10.153,3.074,20.334,5.822c97.6,25.811,195.2,25.811,292.8,6.422s195.2-58.167,292.8-51.745c97.6,6.907,195.2,57.8,292.8,45.322,20.577-2.734,41.149-8.336,61.267-15.842V261Z" transform="translate(480 335)" fill="#ca5c67"/>
+    <path id="Intersection_5" data-name="Intersection 5" d="M1152,349H268V162.255q9.987,3.074,20,5.823c96,25.811,192,25.811,288,6.422s192-58.167,288-51.745c96,6.908,192,57.8,288,45.322,25.641-3.463,51.274-11.531,76-22.24V349Z" transform="translate(212 283)" fill="#d9626e"/>
+    <path id="Intersection_3" data-name="Intersection 3" d="M1152,349H268V162.255q9.987,3.074,20,5.823c96,25.811,192,25.811,288,6.422s192-58.167,288-51.745c96,6.908,192,57.8,288,45.322,25.641-3.463,51.274-11.531,76-22.24V349Z" transform="translate(212 335)" fill="#e36c79"/>
+  </g>
+</svg>

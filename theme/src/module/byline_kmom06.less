@@ -1,0 +1,40 @@
+/**
+ * Style for the byline.
+ */
+
+@bylineBorderColor: #333;
+@bylineBorderStyle: solid;
+
+.byline {
+    border-top: 1px @bylineBorderStyle @bylineBorderColor;
+    padding-bottom: @magicNumber;
+    #design-mixin.clearfix();
+}
+
+// Byline
+.byline {
+    #desinax-vgrid.grid(100%);
+    padding-top: @magicNumber;
+    margin-top: @magicNumber;
+    padding: @magicNumber;
+    color: #fff;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,49,96,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.byline .figure {
+    #desinax-vgrid.column(@columns - 21);
+    margin-left: 0;
+    max-height: @magicNumber;
+}
+
+.figure.figure.byline-img img{
+    max-height: @magicNumber * 3;
+}
+
+.byline p {
+    #desinax-vgrid.column(@columns - 3);
+    margin-top: 0;
+    margin-bottom: 0;
+}

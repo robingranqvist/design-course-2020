@@ -1,0 +1,100 @@
+/*!
+ * Stylesheet for design kmom06
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+// Figure
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
+
+/* 
+* Standard things
+*/
+
+/* Normalize and reset the style */
+@import "normalize.css/normalize.less";
+
+
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+// GRIDS
+
+/**
+ * Import the typographic grid.
+ */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+/**
+ * Import the vertical grid.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+ @import "layout/vgrid.less";
+
+ 
+/*
+ *Specific things that I've made for the website
+*/
+
+@import "specifics/specifics_kmom06.less";
+
+/**
+* Module for the byline.
+*/
+@import "module/byline_kmom06.less";
+
+/**
+* Module for stylechooser.
+*/
+@import "module/stylechooser_kmom06.less";
+
+/**
+* Module for the flash header.
+*/
+@import "module/flashheader_kmom06.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom06.less";
+
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ @import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+ //@import "layout/layout_kmom02.less";
+ @import "layout/responsive_kmom06.less";
+ @import "layout/regions_kmom06.less";     // To add style for ?regions
+
+
+// Layout
+@import "layout/layout_kmom06.less";
+
+// Variables for the theme edit
+@import "variables/variables_kmom06-designelement.less";

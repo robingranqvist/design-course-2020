@@ -1,0 +1,66 @@
+@navLogoColor: #333;
+@footerLinkColor: #fff;
+@footerBgColor: #34495e;
+@footerTextColor: #333;
+@headerLinkColor: #fff;
+
+.site-logo-text a {
+    text-decoration: none;
+    color: @navLogoColor;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumb-list ul {
+    margin-top: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: @magicNumber;
+}
+
+.inner-wrap-footer a {
+    color: @footerLinkColor;
+}
+
+.figure {
+    margin: 0;
+}
+
+.outer-wrap-footer {
+    background: @footerBgColor;
+    padding-top: @magicNumber * 2;
+    padding-bottom: @magicNumber;
+    color: @footerTextColor;
+}
+
+.outer-wrap {
+    padding-left: @magicNumber;
+    padding-right: @magicNumber;
+}
+
+// No padding on these outer wraps
+.outer-wrap-flash {
+    padding: 0;
+}
+
+.outer-wrap-header {
+    padding: 0;
+}
+
+.rm-desktop {
+    color: @headerLinkColor;
+}
+
